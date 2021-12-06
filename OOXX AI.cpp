@@ -10,10 +10,10 @@ srand(time(NULL));
     int a[5][5]={};
     char w[3];
 
-    cout<<"Åwªï¹Cª±OOXX¹CÀ¸\n½Ð¿é¤J¥ý¤â¬°O©ÎX(½Ð¿é¤J¤j¼g)"<<endl;
+    cout<<"æ­¡è¿ŽéŠçŽ©OOXXéŠæˆ²\nè«‹è¼¸å…¥å…ˆæ‰‹ç‚ºOæˆ–X(è«‹è¼¸å…¥å¤§å¯«)"<<endl;
     cin>>w[1];
     while(w[1]!='O' && w[1]!='X'){
-        cout<<"«DO©ÎX¡A½Ð­«·s¿é¤J";
+        cout<<"éžOæˆ–Xï¼Œè«‹é‡æ–°è¼¸å…¥";
         cin>>w[1];
     }
     if(w[1]=='O')
@@ -36,7 +36,7 @@ srand(time(NULL));
             cout<<endl<<endl;
         }
 
-        cout<<"½ü¨ì"<<w[turn%2+1]<<"¡A½Ð¿é¤J­n¶ñ¤Jªº¦ì¸m¥N½X"<<endl;
+        cout<<"è¼ªåˆ°"<<w[turn%2+1]<<"ï¼Œè«‹è¼¸å…¥è¦å¡«å…¥çš„ä½ç½®ä»£ç¢¼"<<endl;
         if(turn%2+1!=1)
 		{
 			int repeat=0;
@@ -72,13 +72,13 @@ srand(time(NULL));
                 j=r%10;
                 if(r!=11 && r!=12 && r!=13 && r!=21 && r!=22 && r!=23 && r!=31 && r!=32 && r!=33){
                     ok=1;
-                    cout<<"¸Ó¦ì¸m¤£¦s¦b¡A½Ð­«·s¿é¤J";
+                    cout<<"è©²ä½ç½®ä¸å­˜åœ¨ï¼Œè«‹é‡æ–°è¼¸å…¥";
                     cin>>r;
                 }
 
                 else if(a[i][j]!=0){
                     ok=1;
-                    cout<<"¸Ó¦ì¸m¤w¨Ï¥Î¡A½Ð­«·s¿é¤J";
+                    cout<<"è©²ä½ç½®å·²ä½¿ç”¨ï¼Œè«‹é‡æ–°è¼¸å…¥";
                     cin>>r;
                 }
                 else{
@@ -130,9 +130,9 @@ srand(time(NULL));
          cout<<endl;
     }
     if(fin==3){
-        cout<<"¥­§½"<<endl;
+        cout<<"å¹³å±€"<<endl;
     }
     else{
-        cout<<"®¥³ß"<<w[fin]<<"Àò³Ó"<<endl;
+        cout<<"æ­å–œ"<<w[fin]<<"ç²å‹"<<endl;
     }
     return 0;}
