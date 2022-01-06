@@ -105,7 +105,7 @@ int main(){
 }
 ```
 
-### 2.0  
+### 1.1  
 1. 修正輸入錯誤值的漏洞  
 ```cpp=
 #include<iostream>
@@ -216,7 +216,7 @@ int main(){
     return 0;
 }
 ```
-### 3.0  
+### 1.2  
 1. 修復最後九宮格輸出排版問題  
 2. 修改變數名稱，增加修改便利性  
 
@@ -330,7 +330,7 @@ int main(){
 }
 ```
 ## 斥赤AI版  
-### 1.0  
+### 2.0  
 
 ```c=
 #include<iostream>
@@ -471,7 +471,7 @@ srand(time(NULL));
     return 0;}
 ```
 
-### 2.0  
+### 2.1  
 ```c=
 #include<iostream>
 #include<iomanip>
@@ -613,7 +613,7 @@ srand(time(NULL));
     return 0;
 }
 ```
-### 3.0  
+### 2.2  
 ```c=
 #include<iostream>
 #include<iomanip>
@@ -786,7 +786,7 @@ srand(time(NULL));
 ```
 
 ## 育德AI版  
-### 1.0  
+### 3.0  
 ```c=
 #include<iostream>
 #include<iomanip>
@@ -1005,8 +1005,10 @@ int main(){
 }
 
 ```
-## 結合版
-### 1.0
+## 結合版  
+### 4.0  
+終於能選擇單雙人了  
+
 ```cpp=
 #include<iostream>
 #include<iomanip>
@@ -1339,6 +1341,17 @@ int main(){
     return 0;
 	}
 }
-```
-[點此前往github連結](https://github.com/dumbledore96/OOXX.git)  
-有問題請反白並留言，或至github/issue反應
+```  
+
+### 4.1  
+敬請其待，功能不變，優化版本  
+
+## 連結  
+[點此前往github連結] (https://github.com/dumbledore96/OOXX.git)  
+有問題請反白並留言，或至github/issue反應  
+
+---
+
+2021/12/4 創建  
+2022/1/6 修改版本代碼  
+**power by 119 program team**  
